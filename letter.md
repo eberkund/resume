@@ -1,6 +1,6 @@
 \noindent Sage Recruiting
 
-\noindent July 18\textsuperscript{th}, 2015
+\noindent July 18^th^, 2015
 \bigskip
 
 \noindent

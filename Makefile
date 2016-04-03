@@ -1,10 +1,33 @@
+ARGS=--from=markdown+yaml_metadata_block \
+	--include-in-header=options.sty \
+	--include-before-body=header.tex \
+	--variable subparagraph=false \
+
 pdf:
-	pandoc --from=markdown+yaml_metadata_block -H options.sty --template template.tex -o ../resume.pdf resume.md
-	pandoc --from=markdown+yaml_metadata_block -H options.sty --template template.tex -o ../letter.pdf letter.md
-	#pdftk ../letter.pdf ../resume.pdf output ../combined.pdf
+	pandoc $(ARGS) \
+	--output=out/resume.pdf resume.md
+
+	pandoc \
+	--from=markdown+yaml_metadata_block \
+	--include-in-header=options.sty \
+	--include-before-body=header.tex \
+	--include-after-body=footer.tex \
+	--variable subparagraph=false \
+	--output=out/letter.pdf letter.md
+
+	pdftk out/letter.pdf out/resume.pdf \
+	output out/combined.pdf
+
+latex:
+	pandoc \
+	--from=markdown+yaml_metadata_block \
+	--include-in-header=options.sty \
+	--include-before-body=header.tex \
+	--output=./out/erik_berkun-drevnig.tex resume.md
 
 html:
-	pandoc -o resume.html resume.md
+	pandoc \
+	--output=out/erik_berkun-drevnig.html resume.md
 
 clean:
-    rm -f *~ *.html *.log *.pdf
+	rm -f out/*

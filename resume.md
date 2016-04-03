@@ -61,8 +61,6 @@ email: e.berkun-drevnig.ca@ieee.org
 	- Improved site search traffic and conversion rates through improvements in site usability and SEO
 	- Managed domain names, SSL certificates and Linux web servers using SSH and FTP
 
-\newpage
-
 *	**Drafter, Cutler Forest Products**
 
 	June 2011 - August 2011
