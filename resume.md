@@ -1,92 +1,74 @@
-Interests
----------
-<!--
-*	Working on challenging programming problems and designing brilliant websites using the latest development techniques
--->
+---
+name: Erik Berkun-Drevnig
+phone: (416) 720 - 3306
+email: e.berkun-drevnig.ca@ieee.org
+---
 
-*	Solving challenging programming problems and designing intuitive user experiences using the latest \mbox{development} techniques
+## Interests
 
+*	Computers have always fascinated me and I love to learn by taking on new projects. Most recently I have been working on a web application using Laravel for managing a summer camp and exploring Xamarin for cross platform app development. I am currently employed as a software developer at NeuronicWorks, a medium sized electronics design and prototyping company but I am open to looking at other opportunities.
 
-Education
----------
+## Education
 
 *	**B.Eng. in Computer Engineering, Ryerson University**
 
 	September 2010 - May 2014
 
-Skills
-------
+## Skills
 
-*	**Languages:** Java, C#, C/C++, MATLAB, HTML, CSS, JavaScript, PHP, SQL
+**Languages**
+	: Java, C#, C/C++, HTML, CSS, JavaScript, Sass, SQL, PHP, Markdown, MATLAB
 
-*	**Hardware:** FPGAs, Arduino, HCS12 and ARM Assembly
+**Hardware**
+	: FPGAs, Arduino, HCS12 and ARM Assembly
 
-*	**Tools:** GNU Make, bash, Git, Grunt, Adobe CS, \LaTeX
+**Tools**
+	: Git, GruntJS, Bash, \LaTeX, SSH, FTP, Unit Testing, Adobe CS
 
-*	**IDEs:** NetBeans, Eclipse, Microsoft VS, Sublime Text
+**IDEs**
+	: Sublime Text, NetBeans, IntelliJ, Code Composer, Visual Studio
 
-Projects
---------
 
-*	**Athletic Performance Training System**
+## Work Experience
 
-	Hack 'N' Talk Hackathon
+*	**Software Developer, NeuronicWorks**
 
-	- Programmed a microcontroller using C, Bluetooth, and accelerometers
-	- Created an application in Java for visually displaying the collected data
-	- Worked in a multidisciplinary team under tight deadlines to pitch the idea and deliver a working prototype
+	August 2015 - Present
 
-*	**Wireless Tracking & Sensor Networking Device**
+	- Worked on a C#.NET application that communicated with custom software and hardware components to coordinate capturing images from 120+ cameras and render a 3D model
+	- Setup *nix servers and configured network equipement to accomodate the system
+	- Diagnosed and improved performance bottlenecks designed architecture for new features
+	- Lead a team of 3 other junior developers
+	- Made modifications to firmware and embedded Linux applications written in C/C++
+	- Deployed a company wide Git server and trained coworkers how to use version control
+	- Worked client side solo with another team to complete a behind schedule project using PHP (Laravel), Python and MySQL
 
-	Final Engineering Design Project
+*	**Computer Science Teacher, Blyth Academy**
 
-	- Created a medical device for patients of extended care facilities to monitor their location and heart rate
-	- Used a combination of RFID sensors and 802.11 (Wi-Fi) triangulation to determine location
-	- The patient device and a web GUI communicated through a LAMP server and RESTful API
-	- Worked in a team to deliver the project concept, design, implementation and necessary documentation
-	- Overcame setbacks and one group member dropping the course to earn an A on the project
+	July 2015 - August 2015
 
-*	**Client Server File Transfer Application**
+	- Prepared and delivered an entire course and created homework assignments and tests
+	- Answered questions and conveyed my knowledge in a concise and easy to understand manner
 
-	Computer Networks Course Project
-	
-	- Wrote a TCP based file transfer application using C socket programming
-	- Demonstrated a functional understanding of the TCP networking protocol
+*	**Web Developer, Freelance**
 
-<!---
-*	**Order Management Appplication**
+	2009 - Present
 
-	OOP Analysis & Design Course Project
+	- Maintained many long term relationships with clients due to the quality of my work
+	- Worked with HTML, CSS, PHP, and JavaScript to produce modern responsive websites
+	- Created custom themes and plugins for WordPress, Jekyll, XenForo, Piwigo and other web software
+	- Communicated directly with clients to establish project goals and make fixes based on feedback
+	- Improved site search traffic and conversion rates through improvements in site usability and SEO
+	- Managed domain names, SSL certificates and Linux web servers using SSH and FTP
 
-	- Designed and implemented an order management application for a restaurant using Java
-	- Documented, tested and illustrated the project using UML, unit testing and technical writing skills
-	- Cooperated with other group members to meet deadlines and received an A on the project
--->
+\newpage
 
-*	**Swarm Robots for Room Detection**
-	
-	Extracurricular Project
-
-	- Multiple robots roamed a room and reported back the input from their sensors
-	- Created a Java application to display a map of the room from the collected data
-
-Work Experience
----------------
-
-*	**Web Developer, Camp Gesher**
-
-	December 2009 - Present
-
-	- Worked with HTML, CSS, PHP, JavaScript, Wordpress and most recently, Jekyll static site generator
-	- Consolidated thousands of their digital pictures into an online gallery for parents
-	- Increased search traffic and conversion rates through improvements in site usability and SEO
-
-*	**Drafter, Cutler Group**
+*	**Drafter, Cutler Forest Products**
 
 	June 2011 - August 2011
 
 	- Used AutoCAD to create drill patterns for CNC machines
-	- Designed product manuals using Google SketchUp and Adobe Creative Suite
+	- Designed product manuals using Google SketchUp and Adobe CS
 
 *	**Ski Instructor, Talisman Mountain Resort**
 
@@ -96,3 +78,37 @@ Work Experience
 	- Helped with riding the lifts and making sure the children made it down the hill safely
 	- Reported to parents on their child's progress
 
+## Projects
+
+*	**All Shrink Image Optimizer**
+	
+	Open Source Application ([allshrink.com](http://allshrink.com))
+
+	- Created a quick and easy, batch image optimizer for Windows
+	- Used Visual Studio, C#, Windows Forms and Magick.NET
+
+*	**Athletic Performance Training System**
+
+	Hack 'N' Talk Hackathon ([hackntalk.com](http://hackntalk.com))
+
+	- Programmed a microcontroller using C, Bluetooth, and accelerometers
+	- Used Java (Processing library) to graphically display the collected data
+
+*	**Swarm Robots for Room Detection**
+
+	Extracurricular Project
+
+	- Multiple robots navigated a room and wirelessly sent sensor data to a laptop
+	- Created a Java program to aggregate the data and produce a map of the room
+
+*	**Wireless Tracking & Sensor Networking Device**
+
+	Final Engineering Design Project ([ee.ryerson.ca/capstone/](http://www.ee.ryerson.ca/capstone/))
+
+	- A medical device for employees of extended care facilities to monitor the location and heart rate of patients
+	- Used a combination of RFID sensors and 802.11 (Wi-Fi) triangulation for location tracking
+	- The patient's device and a web GUI communicated through RESTful API to a LAMP web server
+
+## References
+
+*	References available upon request

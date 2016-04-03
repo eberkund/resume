@@ -2,6 +2,15 @@
 \usepackage{tgpagella}
 \usepackage{titlesec}
 \usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+% List margin
+\usepackage{enumitem}
+\setlist{leftmargin=20pt}
 
 % Titles
 \titleformat{\section}{\huge\bfseries}{\noindent\thesection}{0pt}{}
@@ -16,7 +25,7 @@
 \pagenumbering{gobble}
 
 % Paragraph indentation
-\setlength{\parindent}{15pt}
+\setlength{\parindent}{20pt}
 
 % Fix minipage paragraph spacing
 \makeatletter
@@ -24,4 +33,5 @@
 \makeatother
 
 % Link color
+%\hypersetup{colorlinks,urlcolor=BrickRed}
 \hypersetup{urlcolor=black}

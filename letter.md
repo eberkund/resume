@@ -1,17 +1,15 @@
-\noindent Genesys
+\noindent Sage Recruiting
 
-\noindent May 12\textsuperscript{th}, 2015
+\noindent July 18\textsuperscript{th}, 2015
 \bigskip
 
 \noindent
-To the Genesys recruiting team,
+Hi Rita,
 
-I am a computer engineering graduate from Ryerson. I spoke with some Genesys representatives at the recent new grad job fair on May 4\textsuperscript{th} about my suitability for the *Front End Developer* and *Programmer Analyst -- Java* positions.
+My friend Mahta Moattari referred me to this job because she thought I would be a good fit for the role. I graduated from Ryerson University last spring with a B.Eng. in computer engineering and I am currently teaching computer science at a private high school.
 
-Along with my education, I have done freelance web design work for the past 5 years. I have worked with lots of different web software which includes designing pages using HTML and CSS from scratch and integrating with different templating languages. Working on production websites has made me very aware of cross-browser compatibility issues and optimizing website performance using tools like Google PageSpeed.
+My strongest language is Java because most of the courses I took in school were taught in it and I’ve done a few large projects in it outside of school. Most recently I worked on a athletic performance tracker at a Hackathon. The portion that was written in Java collected sensor data, performed calculations, and displayed a coloured graph of the results.
 
-For my final engineering design project I created a medical device for tracking patients in an extended care facility where I wrote code to generate HTTP requests from scratch so that the microcontroller could communicate through our RESTful API.
+I have about 5 years of freelance experience designing websites and I am very strong with HTML, CSS and JavaScript (mainly jQuery but also pure JS and I recently began working with Angular). As well as some backend development in PHP, Java and SQL. Including the final culminating project during my last year in school which was done with SQL and PHP and some exposure to Zend Framework (MVC). I’m very familiar with the command line tools and the most commonly used preprocessor tools like SASS, Node Package Manager, and Grunt. 
 
-I also have very strong object oriented programming skills and I am very quick to pick up new languages and frameworks. I recently worked on a swarm robotics project for mapping the layout of a room. I wrote the backend of the system using Java to receive data from the robots and combine it, so that it could be displayed visually.
-
-I enjoy learning new skills and interacting productively with people from diverse backgrounds. I greatly appreciate your time and consideration, and I look forward to meeting with you to discuss my suitability.
+I like that the job description encompasses a broad range of responsibilities because being a part of the full scope of the project is what I always strive to achieve. Thanks for taking the time to read over my application, I am looking forward to hearing back from you so that we can talk about my qualifications in more detail.
