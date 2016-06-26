@@ -17,13 +17,13 @@ email: e.berkun-drevnig.ca@ieee.org
 ## Skills
 
 **Languages**
-	: Java, C#, C/C++, HTML, CSS, JavaScript, Sass, SQL, PHP, Markdown, MATLAB
+	: C#, Java, C/C++, JavaScript, CSS/LESS/Sass, HTML, SQL, PHP, Markdown, MATLAB
 
 **Hardware**
 	: FPGAs, Arduino, HCS12 and ARM Assembly
 
 **Tools**
-	: Git, GruntJS, Bash, \LaTeX, SSH, FTP, Unit Testing, Adobe CS
+	: Git, Gulp.js, Bash, \LaTeX, SSH, FTP, Unit Testing, Adobe CS
 
 **IDEs**
 	: Sublime Text, NetBeans, IntelliJ, Code Composer, Visual Studio
@@ -31,17 +31,17 @@ email: e.berkun-drevnig.ca@ieee.org
 
 ## Work Experience
 
-*	**Software Developer, NeuronicWorks**
+*	**Software Development Lead, NeuronicWorks**
 
 	August 2015 - Present
-
-	- Worked on a C#.NET application that communicated with custom software and hardware components to coordinate capturing images from 120+ cameras and render a 3D model
-	- Setup *nix servers and configured network equipement to accomodate the system
-	- Diagnosed and improved performance bottlenecks designed architecture for new features
-	- Lead a team of 3 other junior developers
-	- Made modifications to firmware and embedded Linux applications written in C/C++
-	- Deployed a company wide Git server and trained coworkers how to use version control
-	- Worked client side solo with another team to complete a behind schedule project using PHP (Laravel), Python and MySQL
+	- Worked on a C# .NET application for controlling a 120+ camera full-body 3D scanning and printing system
+	- Configured *nix and BSD servers and network equipement to accomodate the system
+	- Diagnosed and improved performance bottlenecks and designed architecture for new features
+	- Modified firmware and embedded Linux applications written in C/C++
+	- Deployed a company wide Git server and trained coworkers how to use it
+	- Wrote web apps mostly using PHP (Laravel), MySQL and JavaScript
+	- Met with clients for technical support, consulting and requirements gathering
+	- Lead a team of 4 other developers and delivered results on schedule
 
 *	**Computer Science Teacher, Blyth Academy**
 
