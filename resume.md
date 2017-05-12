@@ -16,17 +16,17 @@ email: e.berkun-drevnig.ca@ieee.org
 
 ## Skills
 
-**Languages**
-	: C#, Java, C/C++, JavaScript, CSS/LESS/Sass, HTML, SQL, PHP, Markdown, MATLAB
+*	**Languages**
+		: Java, C#, C/C++, Go, JavaScript, CSS/LESS/Sass, SQL, PHP
 
-**Hardware**
-	: FPGAs, Arduino, HCS12 and ARM Assembly
+*	**Hardware**
+		: FPGAs, Arduino, HCS12 and ARM Assembly
 
-**Tools**
-	: Git, Gulp.js, Bash, \LaTeX, SSH, FTP, Unit Testing, Adobe CS
+*	**Tools**
+		: Git, Gulp.js, Bash, \LaTeX, SSH, FTP, Unit Testing, Adobe CS
 
-**IDEs**
-	: Sublime Text, NetBeans, IntelliJ, Code Composer, Visual Studio
+*	**IDEs**
+		: Sublime Text, NetBeans, IntelliJ, Code Composer, Visual Studio
 
 
 ## Work Experience
@@ -34,14 +34,14 @@ email: e.berkun-drevnig.ca@ieee.org
 *	**Software Development Lead, NeuronicWorks**
 
 	August 2015 - Present
-	- Worked on a C# .NET application for controlling a 120+ camera full-body 3D scanning and printing system
-	- Configured *nix and BSD servers and network equipement to accomodate the system
+	- Worked on a C# .NET application for controlling a 120+ camera [full-body 3D scanning](http://studios.sculptraits3d.com/) and printing system
+	- Configured \*nix servers and network equipement to accomodate the system
 	- Diagnosed and improved performance bottlenecks and designed architecture for new features
 	- Modified firmware and embedded Linux applications written in C/C++
 	- Deployed a company wide Git server and trained coworkers how to use it
-	- Wrote web apps mostly using PHP (Laravel), MySQL and JavaScript
+	- Wrote web apps and desktop applications mostly using PHP (Laravel), MySQL and JavaScript/Node.js
 	- Met with clients for technical support, consulting and requirements gathering
-	- Lead a team of 4 other developers and delivered results on schedule
+	- Lead a team of 4 other developers to deliver before our first public event
 
 *	**Computer Science Teacher, Blyth Academy**
 
@@ -54,36 +54,12 @@ email: e.berkun-drevnig.ca@ieee.org
 
 	2009 - Present
 
+	- Created custom themes and plugins for popular PHP applications
 	- Maintained many long term relationships with clients due to the quality of my work
-	- Worked with HTML, CSS, PHP, and JavaScript to produce modern responsive websites
-	- Created custom themes and plugins for WordPress, Jekyll, XenForo, Piwigo and other web software
-	- Communicated directly with clients to establish project goals and make fixes based on feedback
-	- Improved site search traffic and conversion rates through improvements in site usability and SEO
-	- Managed domain names, SSL certificates and Linux web servers using SSH and FTP
-
-*	**Drafter, Cutler Forest Products**
-
-	June 2011 - August 2011
-
-	- Used AutoCAD to create drill patterns for CNC machines
-	- Designed product manuals using Google SketchUp and Adobe CS
-
-*	**Ski Instructor, Talisman Mountain Resort**
-
-	December 2006 - February 2007
-
-	- Was responsible for all aspects of the lesson plan
-	- Helped with riding the lifts and making sure the children made it down the hill safely
-	- Reported to parents on their child's progress
+	- Communicated with clients to establish project goals and make fixes based on feedback
+	- Managed Linux web servers using SSH
 
 ## Projects
-
-*	**All Shrink Image Optimizer**
-	
-	Open Source Application ([allshrink.com](http://allshrink.com))
-
-	- Created a quick and easy, batch image optimizer for Windows
-	- Used Visual Studio, C#, Windows Forms and Magick.NET
 
 *	**Athletic Performance Training System**
 
