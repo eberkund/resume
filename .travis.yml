@@ -11,6 +11,4 @@ deploy:
   file:
   - ./out/resume.pdf
   skip_cleanup: true
-  on:
-    tags: true
-branch: master
+    
