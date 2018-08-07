@@ -1,18 +1,21 @@
+BUILD_DIR=build
+FOOTER=--include-after-body=tex/footer.tex
 HEADER=--from=markdown+yaml_metadata_block \
 	--include-in-header=tex/options.sty \
 	--include-before-body=tex/header.tex \
 	--variable subparagraph=false
 
-FOOTER=--include-after-body=tex/footer.tex
+pdf: resume.md
+	mdkir -p $(BUILD)
+	pandoc $(HEADER) -o $(BUILD)/resume.pdf resume.md
 
-pdf:
-	pandoc $(HEADER) -o out/resume.pdf resume.md
+tex: resume.md
+	mdkir -p $(BUILD)
+	pandoc $(HEADER) -o $(BUILD)/resume.tex resume.md
 
-tex:
-	pandoc $(HEADER) -o out/resume.tex resume.md
-
-html:
-	pandoc -o out/resume.html resume.md
+html: resume.md
+	mdkir -p $(BUILD)
+	pandoc -o $(BUILD)/resume.html resume.md
 
 clean:
-	rm -f out/*
+	rm -rf $(BUILD)
