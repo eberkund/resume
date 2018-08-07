@@ -1,14 +1,14 @@
+branch: master
 before_install:
 - sudo apt-get update 
 - sudo apt-get install texlive-latex-extra texlive-fonts-recommended pandoc make
 script:
 - make
-branch: master
 deploy:
   provider: releases
+  file: build/resume.pdf
+  skip_cleanup: true
   api_key:
     secure: $GITHUB_OAUTH_TOKEN
-  file:
-  - ./out/resume.pdf
-  skip_cleanup: true
-    
+  on:
+    tags: true   
