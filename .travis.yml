@@ -4,3 +4,13 @@ before_install:
 script:
 - make
 branch: master
+deploy:
+  provider: releases
+  api_key:
+    secure: $GITHUB_OAUTH_TOKEN
+  file:
+  - ./out/resume.pdf
+  skip_cleanup: true
+  on:
+    tags: true
+branch: master
