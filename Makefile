@@ -6,15 +6,15 @@ HEADER=--from=markdown+yaml_metadata_block \
 	--variable subparagraph=false
 
 pdf: resume.md
-	mdkir -p $(BUILD)
+	mkdir -p $(BUILD)
 	pandoc $(HEADER) -o $(BUILD)/resume.pdf resume.md
 
 tex: resume.md
-	mdkir -p $(BUILD)
+	mkdir -p $(BUILD)
 	pandoc $(HEADER) -o $(BUILD)/resume.tex resume.md
 
 html: resume.md
-	mdkir -p $(BUILD)
+	mkdir -p $(BUILD)
 	pandoc -o $(BUILD)/resume.html resume.md
 
 clean:
