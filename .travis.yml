@@ -1,6 +1,6 @@
 branches:
   except:
-    - /\d*_\d*_\d*_.*/
+    - /\d{4}-\d{2}-\d{2}_\d{6}.*/
 before_install:
   - sudo apt-get update 
   - sudo apt-get install texlive-latex-extra texlive-fonts-recommended pandoc make
