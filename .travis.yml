@@ -20,5 +20,4 @@ after_success:
   - git config user.name "Travis CI"
   - export GIT_TAG=$TRAVIS_BRANCH_$(date -u "+%Y-%m-%d_%H%M%S")_$TRAVIS_BUILD_NUMBER
   - git tag $GIT_TAG
-  - git push origin $GIT_TAG
-  - git push https://$GITHUB_OAUTH_TOKEN@github.com/eberkund/resume $GIT_TAG
+  - git push -q https://$GITHUB_OAUTH_TOKEN@github.com/eberkund/resume --tags
