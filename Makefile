@@ -1,21 +1,22 @@
-BUILD=build
+OUTPUT=build
+SOURCES=resume.md $(wildcard tex/*)
 FOOTER=--include-after-body=tex/footer.tex
 HEADER=--from=markdown+yaml_metadata_block \
 	--include-in-header=tex/options.sty \
 	--include-before-body=tex/header.tex \
 	--variable subparagraph=false
 
-pdf: resume.md
-	mkdir -p $(BUILD)
-	pandoc $(HEADER) -o $(BUILD)/resume.pdf resume.md
+pdf: $(SOURCES)
+	mkdir -p $(OUTPUT)
+	pandoc $(HEADER) -o $(OUTPUT)/resume.pdf resume.md
 
-tex: resume.md
-	mkdir -p $(BUILD)
-	pandoc $(HEADER) -o $(BUILD)/resume.tex resume.md
+tex: $(SOURCES)
+	mkdir -p $(OUTPUT)
+	pandoc $(HEADER) -o $(OUTPUT)/resume.tex resume.md
 
-html: resume.md
-	mkdir -p $(BUILD)
-	pandoc -o $(BUILD)/resume.html resume.md
+html: $(SOURCES)
+	mkdir -p $(OUTPUT)
+	pandoc -o $(OUTPUT)/resume.html resume.md
 
 clean:
-	rm -rf $(BUILD)
+	rm -rf $(OUTPUT)

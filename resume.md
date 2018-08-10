@@ -1,7 +1,9 @@
 ---
 name: Erik Berkun-Drevnig
-phone: (416) 720 - 3306
+phone: (416) 720-3306
 email: e.berkun-drevnig.ca@ieee.org
+linkedin: eberkundrevnig
+github: eberkund
 ---
 
 ## Skills
