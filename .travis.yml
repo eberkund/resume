@@ -1,22 +1,16 @@
-branches:
-  except:
-    - /\d{4}-\d{2}-\d{2}_\d{6}.*/
 before_install:
   - sudo apt-get update 
   - sudo apt-get install texlive-latex-extra texlive-fonts-recommended pandoc make
 script:
   - make
-deploy:
-  provider: releases
-  file: build/resume.pdf
-  skip_cleanup: true
-  api_key:
-    secure: $GITHUB_OAUTH_TOKEN
-  on:
-    tags: false
-after_success:
+before_deploy:
   - git config user.email "builds@travis-ci.com"
   - git config user.name "Travis CI"
-  - export GIT_TAG=$TRAVIS_BRANCH_$(date -u "+%Y-%m-%d_%H%M%S")_$TRAVIS_BUILD_NUMBER
-  - git tag $GIT_TAG
-  - git push -q https://$GITHUB_OAUTH_TOKEN@github.com/eberkund/resume --tags
+  - git tag "$(date +'%Y%m%d')-$(git log --format=%h -1)"
+  - git push https://$GITHUB_OAUTH_TOKEN@github.com/eberkund/resume --tags > /dev/null 2>&1
+deploy:
+  overwrite: true
+  skip_cleanup: true
+  provider: releases
+  file: build/resume.pdf
+  api_key: $GITHUB_OAUTH_TOKEN
