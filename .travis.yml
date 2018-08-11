@@ -1,5 +1,3 @@
-branches:
-  only: master
 before_install:
   - sudo apt-get update 
   - sudo apt-get install texlive-latex-extra texlive-fonts-recommended pandoc make
@@ -16,3 +14,5 @@ deploy:
   provider: releases
   file: build/resume.pdf
   api_key: $GITHUB_OAUTH_TOKEN
+  on:
+    branch: master
