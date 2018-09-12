@@ -44,7 +44,7 @@ github: eberkund
 *	**Software Development Lead, NeuronicWorks**  
 	May 2016 -- October 2017
 
-	- Lead a team of 4 developers & hosted training sessions on Git, continuous deployment and web development
+	- Lead a team of 4 developers & hosted training sessions on Git, continuous integration & web development
 	- Completed multiple projects independently and as part of a team in a fast paced environment
 	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Golang
 	- Used Node.js and AWS Lambda to create API endpoints for IoT devices
