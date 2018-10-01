@@ -32,7 +32,7 @@ github: eberkund
 	October 2017 -- Present
 	
 	- Worked in an agile environment with a geographically distributed team
-	- Fixed issues and developed new features using .NET, MS SQL and JavaScript
+	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
 
 *	**Technology Consultant, Objex Unlimited**  
 	November 2017 -- Present
