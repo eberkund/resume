@@ -39,7 +39,7 @@ github: eberkund
 
 	- Advised the business on technical matters and the direction of future development
 	- Designed system architecture for next generation photogrammetry product
-	- Wrote cross platform client-server software using Rust and Golang
+	- Wrote cross platform client-server software using Rust, Golang and gRPC
 
 *	**Software Development Lead, NeuronicWorks**  
 	May 2016 -- October 2017
