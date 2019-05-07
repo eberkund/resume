@@ -5,6 +5,7 @@ addons:
     packages:
     - texlive-latex-extra
     - texlive-fonts-recommended 
+    - lmodern
     - pandoc
     - make
 
