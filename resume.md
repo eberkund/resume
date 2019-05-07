@@ -34,6 +34,7 @@ urlcolor: BrickRed
 	
 	- Worked in an agile environment with a geographically distributed team
 	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
+	- Assisted in transforming a large legacy codebase to microservices architecture by evangelicalizing test driven development within my team and deploying new infrastructure to vastly improve continuous integration
 
 *	**Technology Consultant, Objex Unlimited**  
 	November 2017 -- Present
