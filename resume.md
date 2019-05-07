@@ -10,7 +10,7 @@ urlcolor: BrickRed
 ## Skills
 
 *	**C#**
-		including _UWP, Xamarin, Unity and ASP.NET_
+		including _UWP, .NET Core and ASP.NET_
 
 *	**PHP**
 		including _Composer, Laravel and Symfony_
