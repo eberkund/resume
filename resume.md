@@ -21,7 +21,7 @@ urlcolor: BrickRed
 *	**CSS & Sass**
 		including _Bootstrap, CSS3 and Flexbox_
 
-*	Rust, Java, Linux, Git, \LaTeX, C/C++, Golang, SQL, Python
+*	Rust, Java, Linux, Git, \LaTeX, C/C++, Golang, SQL, Python, Docker
 
 ## Education
 
