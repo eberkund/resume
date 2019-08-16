@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run
+      run: |
+        apt install --yes texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
+        make
