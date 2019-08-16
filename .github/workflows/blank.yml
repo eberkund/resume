@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run
       run: |
-        apt install --yes texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
+        sudo apt-get install --yes texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
         make
