@@ -16,12 +16,15 @@ urlcolor: BrickRed
 		including _Composer, Laravel and Symfony_
 
 *	**JavaScript**
-		including _ES6, Webpack, Gulp, AWS Lambda, Node.js, Electron, VueJS, React and jQuery_
+		including _ES6, TypeScript, Webpack, Gulp, AWS Lambda, Node.js, Electron, VueJS, React and jQuery_
 
 *	**CSS & Sass**
 		including _Bootstrap, CSS3 and Flexbox_
 
-*	Rust, Java, Linux, Git, \LaTeX, C/C++, Golang, SQL, Python
+*	**Packaging**
+		including _Docker, WiX/MSI, Snaps and Ansible_
+
+*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, CI/CD
 
 ## Education
 
@@ -29,25 +32,31 @@ urlcolor: BrickRed
 
 ## Professional Experience
 
+*	**Software Developer, Kindred Systems**  
+	November 2019 -- Present
+
+	- Used React and Go
+
 *	**Software Developer, Clever Devices**  
 	October 2017 -- Present
 	
 	- Worked in an agile environment with a geographically distributed team
 	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
+	- Assisted in transforming a large legacy codebase to microservices architecture by evangelicalizing test driven development within my team and deploying new infrastructure to vastly improve continuous integration
 
 *	**Technology Consultant, Objex Unlimited**  
 	November 2017 -- Present
 
 	- Advised the business on technical matters and the direction of future development
 	- Designed system architecture for next generation photogrammetry product
-	- Wrote cross platform client-server software using Rust, Golang and gRPC
+	- Wrote cross platform client-server software using Rust, Go and gRPC
 
 *	**Software Development Lead, NeuronicWorks**  
 	May 2016 -- October 2017
 
 	- Lead a team of 4 developers & hosted training sessions on Git, continuous integration & web development
 	- Completed multiple projects independently and as part of a team in a fast paced environment
-	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Golang
+	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Go
 	- Used Node.js and AWS Lambda to create API endpoints for IoT devices
 
 *	**Software Developer, NeuronicWorks**  
