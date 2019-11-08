@@ -35,18 +35,17 @@ urlcolor: BrickRed
 *	**Software Developer, Kindred Systems**  
 	November 2019 -- Present
 
-	- Used React and Go
-
 *	**Software Developer, Clever Devices**  
-	October 2017 -- Present
-	
+	October 2017 -- October 2019
+
 	- Worked in an agile environment with a geographically distributed team
-	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
-	- Assisted in transforming a large legacy codebase to microservices architecture by evangelicalizing test driven development within my team and deploying new infrastructure to vastly improve continuous integration
+	- Fixed issues and developed new features using .NET (C#), MS SQL, JavaScript (React)
+	- Assisted in transforming a large legacy codebase to microservices architecture 
+	- Evangelicalized test driven development within my team and deployed new infrastructure to improve CI effectiveness
 
 *	**Technology Consultant, Objex Unlimited**  
 	November 2017 -- Present
-
+	
 	- Advised the business on technical matters and the direction of future development
 	- Designed system architecture for next generation photogrammetry product
 	- Wrote cross platform client-server software using Rust, Go and gRPC
@@ -61,7 +60,7 @@ urlcolor: BrickRed
 
 *	**Software Developer, NeuronicWorks**  
 	August 2015 -- May 2016
-	
+
 	- Worked on a system for controlling a 120+ camera [full-body 3D scanning](http://pics-3d.com/) system
 	- Wrote web apps using PHP (Laravel), C# (ASP.NET) and SQL (MySQL and SQLite)
 	- Wrote desktop software using C# (UWP) and Node.js (Electron)
