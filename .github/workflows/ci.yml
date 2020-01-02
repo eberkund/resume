@@ -36,7 +36,7 @@ jobs:
 
       - name: Get Git sha
         id: sha
-        run: echo "::set-output name=date::$(git log --format=%h -1)""
+        run: echo "::set-output name=date::$(git log --format=%h -1)"
 
       - name: Create release
         id: create_release
