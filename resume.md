@@ -29,6 +29,11 @@ urlcolor: BrickRed
 
 ## Professional Experience
 
+*	**Software Developer, Kindred**
+	October 2019 -- Present
+	
+	- Worked primarily with AWS, Go and React to develop tools for warehouse automation robot
+
 *	**Software Developer, Clever Devices**  
 	October 2017 -- Present
 	
