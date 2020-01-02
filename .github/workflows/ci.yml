@@ -1,13 +1,28 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
+          make
+      
+      - uses: actions/upload-artifact@v1
+        with:
+          name: resume.pdf
+          path: build/resume.pdf
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
     steps:
       - uses: actions/download-artifact@v1
         with:
@@ -26,7 +41,7 @@ jobs:
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_NAME: ${{steps.date.outputs.date}}-${{ steps.sha.outputs.sha }}
+          RELEASE_NAME: ${{ steps.date.outputs.date }}-${{ steps.sha.outputs.sha }}
         with:
           tag_name: ${{ env.RELEASE_NAME }}
           release_name: ${{ env.RELEASE_NAME }}
