@@ -30,17 +30,17 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y%m%d')"
 
       - name: Get commit
-        id: sha
+        id: commit
         run: |
           git log --format=%h -1
-          echo "::set-output name=date::$(git log --format=%h -1)"
+          echo "::set-output name=commit::$(git log --format=%h -1)"
 
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_NAME: ${{ steps.date.outputs.date }}-${{ steps.sha.outputs.sha }}
+          RELEASE_NAME: ${{ steps.date.outputs.date }}-${{ steps.commit.outputs.commit }}
         with:
           tag_name: $RELEASE_NAME
           release_name: $RELEASE_NAME
