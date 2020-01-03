@@ -40,10 +40,9 @@ jobs:
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_NAME: ${{ steps.date.outputs.date }}-${{ steps.commit.outputs.commit }}
         with:
-          tag_name: $RELEASE_NAME
-          release_name: $RELEASE_NAME
+          tag_name: ${{ steps.date.outputs.date }}-${{ steps.commit.outputs.commit }}
+          release_name: ${{ steps.date.outputs.date }}-${{ steps.commit.outputs.commit }}
           draft: false
           prerelease: false
           
