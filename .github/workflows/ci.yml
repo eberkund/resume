@@ -27,7 +27,8 @@ jobs:
         
       - uses: actions/download-artifact@v1
         with:
-          name: $GITHUB_WORKSPACE/resume.pdf
+          name: resume.pdf
+          path: $GITHUB_WORKSPACE
 
       - name: Get current date
         id: date
