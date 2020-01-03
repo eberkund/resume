@@ -10,7 +10,6 @@ jobs:
 
       - name: Build
         run: |
-          sudo apt-get update
           sudo apt-get install --yes texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
           make
       
@@ -28,7 +27,7 @@ jobs:
         
       - uses: actions/download-artifact@v1
         with:
-          name: ./resume.pdf
+          name: $GITHUB_WORKSPACE/resume.pdf
 
       - name: Get current date
         id: date
@@ -57,5 +56,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_content_type: application/pdf
-          asset_path: ./resume.pdf
+          asset_path: $GITHUB_WORKSPACE/resume.pdf
           asset_name: resume.pdf
