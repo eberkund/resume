@@ -24,11 +24,6 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - uses: actions/checkout@v2
-        
-      - uses: actions/download-artifact@v1
-        with:
-          name: resume.pdf
-          path: $GITHUB_WORKSPACE
 
       - name: Get current date
         id: date
@@ -49,6 +44,11 @@ jobs:
           release_name: $RELEASE_NAME
           draft: false
           prerelease: false
+          
+      - uses: actions/download-artifact@v1
+        with:
+          name: resume.pdf
+          path: $GITHUB_WORKSPACE
 
       - name: Upload release
         uses: actions/upload-release-asset@v1.0.1
