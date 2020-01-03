@@ -29,9 +29,11 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y%m%d')"
 
-      - name: Get Git sha
+      - name: Get commit
         id: sha
-        run: echo "::set-output name=date::$(git log --format=%h -1)"
+        run: |
+          git log --format=%h -1
+          echo "::set-output name=date::$(git log --format=%h -1)"
 
       - name: Create release
         id: create_release
