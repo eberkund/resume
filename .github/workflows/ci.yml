@@ -10,7 +10,7 @@ jobs:
 
       - name: Build
         run: |
-          sudo apt-get install --yes texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
+          sudo apt-get install --yes texlive-xetex texlive-latex-extra texlive-fonts-recommended lmodern pandoc make
           make
       
       - uses: actions/upload-artifact@v1
