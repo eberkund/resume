@@ -5,7 +5,6 @@ FOOTER=--include-after-body=tex/footer.tex
 HEADER=--from=markdown+yaml_metadata_block \
 	--include-in-header=tex/options.sty \
 	--include-before-body=tex/header.tex \
-	--pdf-engine=xelatex \
 	--variable subparagraph=false
 
 # Targets
