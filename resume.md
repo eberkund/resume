@@ -10,18 +10,21 @@ urlcolor: BrickRed
 ## Skills
 
 *	**C#**
-		including _UWP, .NET Core and ASP.NET_
+		including _UWP, .NET Core & ASP.NET_
 
 *	**PHP**
-		including _Composer, Laravel and Symfony_
+		including _Composer, Laravel & Symfony_
 
 *	**JavaScript**
-		including _ES6, Webpack, AWS Lambda, Node.js, Electron, VueJS, React, Redux and jQuery_
+		including _ES6, TypeScript, Webpack, AWS Lambda, Node, Electron, Vue, React, Redux & jQuery_
 
 *	**CSS & Sass**
-		including _Bootstrap, CSS3 and Flexbox_
+		including _Bootstrap, CSS3, Flexbox & Grid_
 
-*	Go, Python, Rust, Java, Linux, Git, \LaTeX, C, SQL, Docker
+*	**Packaging & Deployments**
+		including _Docker, WiX/MSI, Snaps & Ansible_
+
+*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, CI/CD
 
 ## Education
 
@@ -32,7 +35,7 @@ urlcolor: BrickRed
 *	**Software Developer, Kindred**  
 	October 2019 -- Present
 	- Developed software to improve effeciency of warehouse automation robots
-	- Used Go, Typescript, ES6, gRPC, React+Redux 
+	- Used Go, Typescript, ES6, gRPC, React 
 	- Managed source code and deployments using GitHub, Terraform, Docker, CircleCI, AWS
 
 *	**Software Developer, Clever Devices**  
@@ -40,11 +43,11 @@ urlcolor: BrickRed
 
 	- Worked in an agile environment with a geographically distributed team
 	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
-	- Assisted in transforming a large legacy codebase to microservices architecture by evangelicalizing test driven development within my team and deploying new infrastructure to vastly improve continuous integration
+	- Assisted in transforming a large legacy codebase to microservices architecture by advocating test driven development and deploying new infrastructure to vastly improve continuous integration
 
 *	**Technology Consultant, Objex Unlimited**  
 	November 2017 -- Present
-
+	
 	- Advised the business on technical matters and the direction of future development
 	- Designed system architecture for next generation photogrammetry product
 	- Wrote cross platform client-server software using Rust, Go and gRPC
