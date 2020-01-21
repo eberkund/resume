@@ -16,12 +16,12 @@ urlcolor: BrickRed
 		including _Composer, Laravel and Symfony_
 
 *	**JavaScript**
-		including _ES6, Webpack, Gulp, AWS Lambda, Node.js, Electron, VueJS, React and jQuery_
+		including _ES6, Webpack, AWS Lambda, Node.js, Electron, VueJS, React, Redux and jQuery_
 
 *	**CSS & Sass**
 		including _Bootstrap, CSS3 and Flexbox_
 
-*	Rust, Java, Linux, Git, \LaTeX, C/C++, Golang, SQL, Python, Docker
+*	Go, Python, Rust, Java, Linux, Git, \LaTeX, C, SQL, Docker
 
 ## Education
 
@@ -31,12 +31,13 @@ urlcolor: BrickRed
 
 *	**Software Developer, Kindred**  
 	October 2019 -- Present
-	
-	- Worked primarily with AWS, Go and React to develop tools for warehouse automation robot
+	- Developed software to improve effeciency of warehouse automation robots
+	- Used Go, Typescript, ES6, gRPC, React+Redux 
+	- Managed source code and deployments using GitHub, Terraform, Docker, CircleCI, AWS
 
 *	**Software Developer, Clever Devices**  
 	October 2017 -- Present
-	
+
 	- Worked in an agile environment with a geographically distributed team
 	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
 	- Assisted in transforming a large legacy codebase to microservices architecture by evangelicalizing test driven development within my team and deploying new infrastructure to vastly improve continuous integration
@@ -46,19 +47,19 @@ urlcolor: BrickRed
 
 	- Advised the business on technical matters and the direction of future development
 	- Designed system architecture for next generation photogrammetry product
-	- Wrote cross platform client-server software using Rust, Golang and gRPC
+	- Wrote cross platform client-server software using Rust, Go and gRPC
 
 *	**Software Development Lead, NeuronicWorks**  
 	May 2016 -- October 2017
 
 	- Lead a team of 4 developers & hosted training sessions on Git, continuous integration & web development
 	- Completed multiple projects independently and as part of a team in a fast paced environment
-	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Golang
+	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Go
 	- Used Node.js and AWS Lambda to create API endpoints for IoT devices
 
 *	**Software Developer, NeuronicWorks**  
 	August 2015 -- May 2016
-	
+
 	- Worked on a system for controlling a 120+ camera [full-body 3D scanning](http://pics-3d.com/) system
 	- Wrote web apps using PHP (Laravel), C# (ASP.NET) and SQL (MySQL and SQLite)
 	- Wrote desktop software using C# (UWP) and Node.js (Electron)
