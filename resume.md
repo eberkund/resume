@@ -34,7 +34,7 @@ urlcolor: BrickRed
 
 *	**Software Developer, Kindred**  
 	October 2019 -- January 2020
-	- Developed software to improve effeciency of warehouse automation robots
+	- Developed software to improve efficiency of warehouse automation robots
 	- Used Go, Typescript, ES6, gRPC, React 
 	- Managed source code and deployments using GitHub, Terraform, Docker, CircleCI, AWS
 
