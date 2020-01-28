@@ -33,20 +33,20 @@ urlcolor: BrickRed
 ## Professional Experience
 
 *	**Software Developer, Kindred**  
-	October 2019 -- Present
+	October 2019 -- January 2020
 	- Developed software to improve effeciency of warehouse automation robots
 	- Used Go, Typescript, ES6, gRPC, React 
 	- Managed source code and deployments using GitHub, Terraform, Docker, CircleCI, AWS
 
 *	**Software Developer, Clever Devices**  
-	October 2017 -- Present
+	October 2017 -- October 2019
 
 	- Worked in an agile environment with a geographically distributed team
 	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
 	- Assisted in transforming a large legacy codebase to microservices architecture by advocating test driven development and deploying new infrastructure to vastly improve continuous integration
 
 *	**Technology Consultant, Objex Unlimited**  
-	November 2017 -- Present
+	November 2017 -- April 2018
 	
 	- Advised the business on technical matters and the direction of future development
 	- Designed system architecture for next generation photogrammetry product
