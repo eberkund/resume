@@ -16,7 +16,7 @@ urlcolor: BrickRed
 		including _Composer, Laravel & Symfony_
 
 *	**JavaScript**
-		including _ES6, TypeScript, Webpack, AWS Lambda, Node, Electron, Vue, React, Redux & jQuery_
+		including _ES6, TypeScript, Webpack, Node.js, Electron, Vue, React, Redux & jQuery_
 
 *	**CSS & Sass**
 		including _Bootstrap, CSS3, Flexbox & Grid_
@@ -24,7 +24,7 @@ urlcolor: BrickRed
 *	**Packaging & Deployments**
 		including _Docker, WiX/MSI, Snaps & Ansible_
 
-*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, CI/CD
+*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD
 
 ## Education
 
@@ -55,7 +55,7 @@ urlcolor: BrickRed
 *	**Software Development Lead, NeuronicWorks**  
 	May 2016 -- October 2017
 
-	- Lead a team of 4 developers & hosted training sessions on Git, continuous integration & web development
+	- Lead a team of 4 developers & hosted training on Git, continuous integration & web development
 	- Completed multiple projects independently and as part of a team in a fast paced environment
 	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Go
 	- Used Node.js and AWS Lambda to create API endpoints for IoT devices
