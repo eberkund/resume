@@ -42,7 +42,7 @@ urlcolor: BrickRed
 	October 2017 -- October 2019
 
 	- Worked in an agile environment with a geographically distributed team
-	- Fixed issues and developed new features using .NET, MS SQL, JavaScript (React)
+	- Fixed issues and developed new features using .NET, MS SQL, TypeScript, JavaScript, React
 	- Assisted in transforming a large legacy codebase to microservices architecture by advocating test driven development and deploying new infrastructure to vastly improve continuous integration
 
 *	**Technology Consultant, Objex Unlimited**  
