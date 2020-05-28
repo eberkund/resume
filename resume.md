@@ -32,6 +32,9 @@ urlcolor: BrickRed
 
 ## Professional Experience
 
+*	**Senior Infrastructure Engineer, LotusFlare**  
+	April 2020 -- Current
+
 *	**Software Developer, Kindred**  
 	October 2019 -- January 2020
 	- Developed software to improve efficiency of warehouse automation robots
