@@ -35,8 +35,14 @@ urlcolor: BrickRed
 *	**Senior Infrastructure Engineer, LotusFlare**  
 	April 2020 -- Current
 
+	- Maintained application code written in Scala, Lua (OpenResty) and Go
+	- Maintained infrastructure as code (Terraform & Ansible)
+	- Led an initiative to migrate CI pipeline from Jenkins to GitHub Actions
+	- Restructured Git repositories to reduce cross-repo dependencies and simplify dev environment
+
 *	**Software Developer, Kindred**  
 	October 2019 -- January 2020
+
 	- Developed software to improve efficiency of warehouse automation robots
 	- Used Go, Typescript, ES6, gRPC, React 
 	- Managed source code and deployments using GitHub, Terraform, Docker, CircleCI, AWS
@@ -47,13 +53,6 @@ urlcolor: BrickRed
 	- Worked in an agile environment with a geographically distributed team
 	- Fixed issues and developed new features using .NET, MS SQL, TypeScript, JavaScript, React
 	- Assisted in transforming a large legacy codebase to microservices architecture by advocating test driven development and deploying new infrastructure to vastly improve continuous integration
-
-*	**Technology Consultant, Objex Unlimited**  
-	November 2017 -- April 2018
-	
-	- Advised the business on technical matters and the direction of future development
-	- Designed system architecture for next generation photogrammetry product
-	- Wrote cross platform client-server software using Rust, Go and gRPC
 
 *	**Software Development Lead, NeuronicWorks**  
 	May 2016 -- October 2017
@@ -66,13 +65,45 @@ urlcolor: BrickRed
 *	**Software Developer, NeuronicWorks**  
 	August 2015 -- May 2016
 
-	- Worked on a system for controlling a 120+ camera [full-body 3D scanning](http://pics-3d.com/) system
 	- Wrote web apps using PHP (Laravel), C# (ASP.NET) and SQL (MySQL and SQLite)
 	- Wrote desktop software using C# (UWP) and Node.js (Electron)
-	- Developed embedded Linux applications using C/C++
+	- Modified an embedded Linux application using C++
 
 *	**Computer Science Teacher, Blyth Academy**  
 	July 2015 -- August 2015
 
 	- Prepared and delivered an entire course and created homework assignments and tests
 	- Answered questions and conveyed my knowledge in a concise and easy to understand manner
+
+## Contract Work
+
+*	**Technology Consultant, Objex Unlimited**  
+
+	- Advised the business on technology and product development
+	- Designed system architecture for next generation photogrammetry system
+	- Wrote cross platform client-server software using Go, Vue and gRPC
+
+*	**Software Consultant, Mero Technologies**  
+
+	- First technical hire for an early stage startup
+	- I built their flagship product, a web dashboard for displaying data using Laravel and Vue
+	- Screened candidate resumes, performed technical interviews and onboarded full-time hires
+	- Produced technical documentation
+	- Participated in meetings with vendors and prospective clients
+
+*	**Web Developer, Roster Point Hockey**
+
+	- Created a new website platform using Laravel after client lost backups and server died
+	- Designed a database schema and imported and cleaned data from multiple sources
+	- Gathered requirements and worked with client on deliverables
+	- Designed database schema
+
+*	**Software Consultant, Banana Accounting**  
+
+	- Completed a fixed cost project within deadlines
+	- Created a Linux Snap package for publication and distribution through the [Snap Store](https://snapcraft.io/banana-accounting)
+
+*	**Software Developer, Pool Safe**  
+
+	- Improved build system for appliance software so custom builds were not required for each unit
+	- Migrated AWS accounts from a previous vendor and created infrastructure as code
