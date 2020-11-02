@@ -30,7 +30,7 @@ urlcolor: BrickRed
 
 *	**B.Eng. in Computer Engineering, Ryerson University**
 
-## Professional Experience
+## Full Time Experience
 
 *	**Senior Infrastructure Engineer, LotusFlare**  
 	April 2020 -- Current
