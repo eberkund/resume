@@ -117,4 +117,6 @@ urlcolor: BrickRed
 	- Improved build system for appliance software so custom builds were not required for each unit
 	- Migrated AWS accounts from a previous vendor and created infrastructure as code
 
-#### _References available upon request._
+## References
+
+*	_References available upon request._
