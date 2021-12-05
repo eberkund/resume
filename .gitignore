@@ -1,3 +1,4 @@
 build/
 tex2pdf.*/
 letter.md
+.DS_Store

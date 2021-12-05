@@ -24,7 +24,7 @@ urlcolor: BrickRed
 *	**Packaging & Deployments**
 		including _Docker, WiX/MSI, Snaps & Ansible_
 
-*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD
+*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD, Kubernetes
 
 ## Education
 
@@ -39,6 +39,7 @@ urlcolor: BrickRed
 	- Maintained infrastructure as code (Terraform & Ansible)
 	- Led an initiative to migrate CI pipeline from Jenkins to GitHub Actions
 	- Restructured Git repositories to reduce cross-repo dependencies and simplify dev environment
+	- Wrote Helm charts as part of an effort to migrate to K8s
 
 *	**Software Developer, Kindred**  
 	October 2019 -- January 2020
@@ -59,8 +60,10 @@ urlcolor: BrickRed
 
 	- Lead a team of 4 developers & hosted training on Git, continuous integration & web development
 	- Completed multiple projects independently and as part of a team in a fast paced environment
-	- Wrote embedded Linux application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Go
+	- Wrote embedded Linux TUI application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Go
 	- Used Node.js and AWS Lambda to create API endpoints for IoT devices
+
+\pagebreak
 
 *	**Software Developer, NeuronicWorks**  
 	August 2015 -- May 2016
@@ -79,31 +82,39 @@ urlcolor: BrickRed
 
 *	**Technology Consultant, Objex Unlimited**  
 
-	- Advised the business on technology and product development
-	- Designed system architecture for next generation photogrammetry system
-	- Wrote cross platform client-server software using Go, Vue and gRPC
+	- Advised the business on technology and product direction
+	- Conceptualized and created a job queue for Agisoft PhotoScan
+		- Improved hardware utilization and enabled horizontal scalability
+		- Saved employee time by automated several manual processes
+	- Designed system architecture for the company's next generation photogrammetry product
+		- Wrote well-tested, cross-platform, client-server software using Go, Vue and gRPC
+		- Utilized a simple virtual FS to improve performance and reduce disk usage
+		- Utilized different network protocols where appropriate including HTTP, Protocol Buffers over UDP multicast, mDNS and server streaming gRPC
 
 *	**Software Consultant, Mero Technologies**  
 
-	- First technical hire for an early stage startup
+	- Was the first technical hire for an early stage IoT startup
 	- I built their flagship product, a web dashboard for displaying data using Laravel and Vue
-	- Screened candidate resumes, performed technical interviews and onboarded full-time hires
-	- Produced technical documentation
-	- Participated in meetings with vendors and prospective clients
+	- Created tooling to improve business effeciency, including a sensor simulator/data generator using Go
+	- Screened candidate resumes, performed technical interviews and onboarded 3 full-time hires
+	- Participated in meetings with vendors, team members and prospective clients
+	- Produced technical documentation for installation technicians
 
 *	**Web Developer, Roster Point Hockey**
 
 	- Created a new website platform using Laravel after client lost backups and server died
 	- Designed a database schema and imported and cleaned data from multiple sources
-	- Gathered requirements and worked with client on deliverables
-	- Designed database schema
+	- Gathered requirements and provided constant communication with the client on deliverables
+	- Maintained the database schema with migration scripts
 
 *	**Software Consultant, Banana Accounting**  
 
 	- Completed a fixed cost project within deadlines
 	- Created a Linux Snap package for publication and distribution through the [Snap Store](https://snapcraft.io/banana-accounting)
 
-*	**Software Developer, Pool Safe**  
+*	**Software Consultant, Pool Safe**  
 
 	- Improved build system for appliance software so custom builds were not required for each unit
 	- Migrated AWS accounts from a previous vendor and created infrastructure as code
+
+#### _References available upon request._
