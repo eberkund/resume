@@ -22,9 +22,9 @@ urlcolor: BrickRed
 		including _Bootstrap, CSS3, Flexbox & Grid_
 
 *	**Packaging & Deployments**
-		including _Docker, WiX/MSI, Snaps & Ansible_
+		including _Docker, Kubernetes, WiX/MSI, Snaps & Ansible_
 
-*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD, Kubernetes
+*	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD
 
 ## Education
 
@@ -36,6 +36,7 @@ urlcolor: BrickRed
 	April 2020 -- Current
 
 	- Maintained application code written in Scala, Lua (OpenResty) and Go
+	- Created a Lua FFI binding for Cassandra C/C++ database driver
 	- Maintained infrastructure as code (Terraform & Ansible)
 	- Led an initiative to migrate CI pipeline from Jenkins to GitHub Actions
 	- Restructured Git repositories to reduce cross-repo dependencies and simplify dev environment
@@ -70,7 +71,7 @@ urlcolor: BrickRed
 
 	- Wrote web apps using PHP (Laravel), C# (ASP.NET) and SQL (MySQL and SQLite)
 	- Wrote desktop software using C# (UWP) and Node.js (Electron)
-	- Modified an embedded Linux application using C++
+	- Made changes to an embedded Linux application using C++
 
 *	**Computer Science Teacher, Blyth Academy**  
 	July 2015 -- August 2015
