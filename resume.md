@@ -10,7 +10,7 @@ urlcolor: BrickRed
 ## Skills
 
 *	**C#**
-		including _UWP, .NET Core & ASP.NET_
+		including _.NET Core, ASP.NET MVC & UWP_
 
 *	**PHP**
 		including _Composer, Laravel & Symfony_
@@ -22,7 +22,7 @@ urlcolor: BrickRed
 		including _Bootstrap, CSS3, Flexbox & Grid_
 
 *	**Packaging & Deployments**
-		including _Docker, Kubernetes, WiX/MSI, Snaps & Ansible_
+		including _Docker, Kubernetes, Helm, WiX/MSI, Snaps & Ansible_
 
 *	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD
 
@@ -32,15 +32,23 @@ urlcolor: BrickRed
 
 ## Full Time Experience
 
+*	**Senior Backend Developer, Nesto**
+	October 2021 -- Current
+
+	- Developed features and fixed bugs for system used by a mortgage brokerage
+	- Deployed microservices written in Go to Kubernetes (GCP)
+	- Investigated issues using a variety of open source, commercial and internal tools
+	- Identified and drove major initiatives like in-process integration testing and OpenAPI code generation
+
 *	**Senior Infrastructure Engineer, LotusFlare**  
-	April 2020 -- Current
+	April 2020 -- October 2021
 
 	- Maintained application code written in Scala, Lua (OpenResty) and Go
 	- Created a Lua FFI binding for Cassandra C/C++ database driver
 	- Maintained infrastructure as code (Terraform & Ansible)
 	- Led an initiative to migrate CI pipeline from Jenkins to GitHub Actions
-	- Restructured Git repositories to reduce cross-repo dependencies and simplify dev environment
-	- Wrote Helm charts as part of an effort to migrate to K8s
+	- Restructured Git repositories to reduce cross-repo dependencies and simplify workflows
+	- Created Helm charts to manage applications deployed on Kubernetes
 
 *	**Software Developer, Kindred**  
 	October 2019 -- January 2020
@@ -63,8 +71,6 @@ urlcolor: BrickRed
 	- Completed multiple projects independently and as part of a team in a fast paced environment
 	- Wrote embedded Linux TUI application for an [autonomous drone package delivery system](https://youtu.be/yMP2iZbFKvg?t=32) using Go
 	- Used Node.js and AWS Lambda to create API endpoints for IoT devices
-
-\pagebreak
 
 *	**Software Developer, NeuronicWorks**  
 	August 2015 -- May 2016
