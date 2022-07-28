@@ -32,7 +32,7 @@ urlcolor: BrickRed
 
 ## Full Time Experience
 
-*	**Senior Backend Developer, Nesto**
+*	**Senior Backend Developer, Nesto**  
 	October 2021 -- Current
 
 	- Developed features and fixed bugs for system used by a mortgage brokerage
