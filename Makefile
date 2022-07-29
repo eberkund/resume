@@ -9,19 +9,15 @@ HEADER=--from=markdown+yaml_metadata_block \
 
 # Targets
 $(OUTPUT)/resume.pdf: $(SOURCES) resume.md
-	mkdir -p $(OUTPUT)
 	pandoc $(HEADER) -o $(OUTPUT)/resume.pdf resume.md
 
 $(OUTPUT)/resume.tex: $(SOURCES) resume.md
-	mkdir -p $(OUTPUT)
 	pandoc $(HEADER) -o $(OUTPUT)/resume.tex resume.md
 
 $(OUTPUT)/resume.html: $(SOURCES) resume.md
-	mkdir -p $(OUTPUT)
 	pandoc -o $(OUTPUT)/resume.html resume.md
 
 $(OUTPUT)/letter.pdf: $(SOURCES) letter.md
-	mkdir -p $(OUTPUT)
 	pandoc $(HEADER) $(FOOTER) -o $(OUTPUT)/letter.pdf letter.md
 
 # Aliases
@@ -31,4 +27,4 @@ html: $(OUTPUT)/resume.html
 letter: $(OUTPUT)/letter.pdf
 
 clean:
-	rm -rf $(OUTPUT)
+	rm $(OUTPUT)/!(.gitkeep)

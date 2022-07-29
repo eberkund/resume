@@ -22,7 +22,7 @@ urlcolor: BrickRed
 		including _Bootstrap, CSS3, Flexbox & Grid_
 
 *	**Packaging & Deployments**
-		including _Docker, Kubernetes, Helm, WiX/MSI, Snaps & Ansible_
+		including _Docker, Kubernetes, Terraform, Pulumi, Ansible, WiX/MSI & Snaps_
 
 *	Go, Rust, Linux, Git, Java, \LaTeX, C, SQL, Python, Cloud, CI/CD
 
@@ -32,7 +32,7 @@ urlcolor: BrickRed
 
 ## Full Time Experience
 
-*	**Senior Backend Developer, Nesto**  
+ *	**Senior Backend Developer, Nesto**  
 	October 2021 -- Current
 
 	- Developed features and fixed bugs for system used by a mortgage brokerage
