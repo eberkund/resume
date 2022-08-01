@@ -19,7 +19,7 @@ urlcolor: BrickRed
 		including _ES6, TypeScript, Webpack, Node.js, Electron, Vue, React, Redux & jQuery_
 
 *	**CSS & Sass**
-		including _Bootstrap, CSS3, Flexbox & Grid_
+		including _Bootstrap, Tailwind, CSS3, Flexbox & Grid_
 
 *	**Packaging & Deployments**
 		including _Docker, Kubernetes, Terraform, Pulumi, Ansible, WiX/MSI & Snaps_
