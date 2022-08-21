@@ -4,7 +4,8 @@ phone: (416) 720-3306
 email: e.berkun-drevnig.ca@ieee.org
 linkedin: eberkundrevnig
 github: eberkund
-urlcolor: BrickRed
+urlcolor: Bittersweet
+subparagraph: false
 ---
 
 ## Skills
@@ -54,7 +55,7 @@ urlcolor: BrickRed
 	October 2019 -- January 2020
 
 	- Developed software to improve efficiency of warehouse automation robots
-	- Used Go, Typescript, ES6, gRPC, React 
+	- Used Go, Typescript, ES6, gRPC, React, PostgreSQL
 	- Managed source code and deployments using GitHub, Terraform, Docker, CircleCI, AWS
 
 *	**Software Developer, Clever Devices**  
@@ -75,7 +76,7 @@ urlcolor: BrickRed
 *	**Software Developer, NeuronicWorks**  
 	August 2015 -- May 2016
 
-	- Wrote web apps using PHP (Laravel), C# (ASP.NET) and SQL (MySQL and SQLite)
+	- Wrote web apps using PHP (Laravel), C# (ASP.NET) and SQL (MySQL, MS SQL, SQLite)
 	- Wrote desktop software using C# (UWP) and Node.js (Electron)
 	- Made changes to an embedded Linux application using C++
 
@@ -100,7 +101,7 @@ urlcolor: BrickRed
 
 *	**Software Consultant, Mero Technologies**  
 
-	- Was the first technical hire for an early stage IoT startup
+	- I was the first technical hire for an early stage IoT startup
 	- I built their flagship product, a web dashboard for displaying data using Laravel and Vue
 	- Created tooling to improve business effeciency, including a sensor simulator/data generator using Go
 	- Screened candidate resumes, performed technical interviews and onboarded 3 full-time hires
@@ -112,18 +113,14 @@ urlcolor: BrickRed
 	- Created a new website platform using Laravel after client lost backups and server died
 	- Designed a database schema and imported and cleaned data from multiple sources
 	- Gathered requirements and provided constant communication with the client on deliverables
-	- Maintained the database schema with migration scripts
 
 *	**Software Consultant, Banana Accounting**  
 
-	- Completed a fixed cost project within deadlines
-	- Created a Linux Snap package for publication and distribution through the [Snap Store](https://snapcraft.io/banana-accounting)
+	- Created a containerised package for publishing on the [Canonical Snap Store](https://snapcraft.io/banana-accounting)
+	- Completed the fixed cost project within the deadline
 
 *	**Software Consultant, Pool Safe**  
 
 	- Improved build system for appliance software so custom builds were not required for each unit
 	- Migrated AWS accounts from a previous vendor and created infrastructure as code
 
-## References
-
-*	_References available upon request._

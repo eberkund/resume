@@ -4,8 +4,7 @@ SOURCES=$(wildcard tex/*)
 FOOTER=--include-after-body=tex/footer.tex
 HEADER=--from=markdown+yaml_metadata_block \
 	--include-in-header=tex/options.sty \
-	--include-before-body=tex/header.tex \
-	--variable subparagraph=false
+	--include-before-body=tex/header.tex
 
 # Targets
 $(OUTPUT)/resume.pdf: $(SOURCES) resume.md
