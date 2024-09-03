@@ -47,7 +47,7 @@ jobs:
           draft: false
           prerelease: false
           
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: resume.pdf
           path: $GITHUB_WORKSPACE
